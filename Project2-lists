@@ -1,0 +1,66 @@
+# my_list  = [1,2,3, "Python", 3.14]
+# print(my_list)
+# print(my_list[1])
+
+# first_item = my_list[0]
+# print(first_item)
+# my_list.append("new item")
+# print(my_list)
+# my_list.remove("Python")
+# print(my_list)
+# for item in my_list:
+#     print(item)
+
+# for index, item in enumerate(my_list):
+#     print(index, item)
+
+# squared_numbers = [ x**2 for x in range(10)]
+# print(squared_numbers)
+
+
+# matrix = [[1,2,3],[4,5,6],[7,8,9]]
+# print(matrix)
+
+# first_row_first_column = matrix[0][0]
+# print(first_row_first_column)
+
+
+# for row in matrix:
+#     print(row)
+
+# for row in matrix:
+#     print('a'.join(map(str, row)))
+
+
+
+# single_quote = "hello"
+
+# my_string = "hello world"
+# try: 
+#     my_string[7] = 'W'
+# except TypeError as e:
+#     print(e)
+
+# my_list = [1,2,3,4]
+# my_list[2] = 30
+# print(my_list)
+
+
+
+orginal_list = [1,2,3]
+new_list = orginal_list
+new_list[1] = 200
+print(orginal_list)
+
+
+indenpendet_copy = orginal_list[:]
+indenpendet_copy[1] = 20
+print(orginal_list)
+print(indenpendet_copy)
+
+a = 10
+b = a = 5
+print(a)
+print(b)
+
+
